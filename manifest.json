@@ -1,0 +1,22 @@
+{
+  "name": "Mood & Sleep Tracker",
+  "short_name": "MoodApp",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#C4B5FD",
+  "description": "Rastreador de sueño y estado de ánimo diario",
+  "icons": [
+    {
+      "src": "icono.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icono.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

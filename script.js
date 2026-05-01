@@ -19,11 +19,11 @@ let currentCalculatedHours = 0;
 themeToggleBtn.addEventListener("click", () => {
     htmlElement.classList.toggle("dark");
     if (htmlElement.classList.contains("dark")) {
-        moonLogo.classList.remove("hidden");
-        sunLogo.classList.add("hidden");
+        moonLogo.style.display = "block";
+        sunLogo.style.display = "none";
     } else {
-        moonLogo.classList.add("hidden");
-        sunLogo.classList.remove("hidden");
+        moonLogo.style.display = "none";
+        sunLogo.style.display = "block";
     }
 });
 
